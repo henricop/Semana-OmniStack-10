@@ -1,0 +1,18 @@
+main{
+  flex: 1;
+}
+
+main ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  list-style: none;
+}
+
+
+/* ARRRUMAR ESSA BOSTA */ /* ARRRUMAR ESSA BOSTA */ /* ARRRUMAR ESSA BOSTA *//* ARRRUMAR ESSA BOSTA */
+@media(max-width : 750px){
+  main ul {
+    grid-template-columns: 1fr;
+  }
+}
