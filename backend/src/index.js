@@ -13,7 +13,7 @@ setupWebsocket(server);
 app.use(express.json());
 //Connecting with database
 
-mongoose.connect('mongodb+srv://henrico:250697@omni-jz4wh.mongodb.net/week10?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://henrico:*****@omni-jz4wh.mongodb.net/week10?retryWrites=true&w=majority',{
   useUnifiedTopology: true,
   useNewUrlParser: true,
 });
