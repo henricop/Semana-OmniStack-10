@@ -11,7 +11,7 @@
 .app main {
   margin-left: 30px;
 }
-/* ARRRUMAR ESSA BOSTA */ /* ARRRUMAR ESSA BOSTA */ /* ARRRUMAR ESSA BOSTA */ 
+
 @media (max-width: 900px){
   .app{
     flex-direction: column;
